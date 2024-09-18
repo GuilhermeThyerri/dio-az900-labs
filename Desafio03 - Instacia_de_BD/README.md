@@ -1,27 +1,19 @@
-# Configuração de um Banco de Dados SQL no Azure
+# Configurando um Banco de Dados SQL no Azure
 
-Este guia passo a passo ajudará você a configurar uma instância de banco de dados no **Azure SQL Database**. Siga atentamente cada etapa para criar, configurar e se conectar ao banco de dados.
-
----
-
-## 1. Criando sua Conta no Azure 🌐
-
-Antes de iniciar, certifique-se de ter uma conta ativa no Azure. Se ainda não tiver, visite [portal.azure.com](https://portal.azure.com) para criar uma conta gratuita. Uma vez com a conta ativa, faça login no portal.
+Este guia irá te ajudar a configurar uma instância de banco de dados no **Azure SQL Database**.
 
 ---
 
-## 2. Acessando o Portal do Azure 🖥️
+## 1. Acessando o Portal do Azure
 
-Após o login, acesse o [Portal do Azure](https://portal.azure.com). No painel principal, utilize a barra de pesquisa no topo e digite **"SQL Database"**. Nos resultados, selecione a opção **"Banco de Dados SQL"** ou **"SQL Database"**. Em seguida, clique em **"Criar"** para iniciar o processo de configuração do banco de dados.
+Acesse o [Portal do Azure](https://portal.azure.com). No painel principal, pesquise por **"SQL Database"** na barra de pesquisa no topo da página. Nos resultados, selecione a opção **"Banco de Dados SQL"** ou **"SQL Database"**. Em seguida, clique em **"+ Criar"** para entrar na guia de configuração do banco de dados.
 
 ---
 
-## 3. Preenchendo as Informações Básicas 📋
+## 2. Informações Básicas
 
-Agora você será guiado para preencher os detalhes do banco de dados. Aqui estão as principais informações que você precisará configurar:
-
-- **Nome do Banco de Dados**: Escolha um nome único e fácil de lembrar para identificar seu banco de dados.
-- **Assinatura**: Selecione a assinatura do Azure que deseja utilizar. Caso esteja testando, considere a opção gratuita, se disponível.
+- **Nome do Banco de Dados**: Escolha um nome para identificar seu banco de dados.
+- **Assinatura**: Selecione a assinatura do Azure que deseja utilizar. Caso esteja testando, utilize a assinatura gratuita, caso disponível.
 - **Grupo de Recursos**: Selecione um grupo de recursos já existente ou crie um novo. Os grupos de recursos ajudam a organizar seus recursos no Azure.
 - **Servidor**: Você pode escolher um servidor existente ou criar um novo:
   - **Nome do Servidor**: Escolha um nome exclusivo para seu servidor SQL.
@@ -31,9 +23,9 @@ Agora você será guiado para preencher os detalhes do banco de dados. Aqui est�
 
 ---
 
-## 4. Configurações de Plano de Serviço 🔧
+## 3. Plano de Serviço
 
-Escolha o plano de serviço que melhor atenda às suas necessidades. O Azure oferece diferentes camadas de serviço para personalizar o desempenho e o custo do banco de dados. Aqui estão algumas opções comuns:
+Escolha o plano de serviço que melhor atenda às suas necessidades. 
 
 - **Camadas de Serviço**:
   - **Basic**: Ideal para bancos de dados pequenos e uso leve.
@@ -45,7 +37,7 @@ Escolha o plano de serviço que melhor atenda às suas necessidades. O Azure ofe
 
 ---
 
-## 5. Configurações de Rede 🌐
+## 4. Rede
 
 Agora você precisará configurar como o banco de dados será acessado:
 
@@ -59,7 +51,7 @@ Agora você precisará configurar como o banco de dados será acessado:
 
 ---
 
-## 6. Configurações de Segurança 🔐
+## 5. Segurança
 
 É crucial garantir que seu banco de dados esteja seguro. Aqui estão as principais opções de segurança:
 
@@ -69,7 +61,7 @@ Agora você precisará configurar como o banco de dados será acessado:
 
 ---
 
-## 7. Backup e Redundância de Dados 🛡️
+## 6. Backup e Redundância de Dados
 
 Configure as opções de backup para proteger seus dados:
 
@@ -78,6 +70,6 @@ Configure as opções de backup para proteger seus dados:
 
 ---
 
-## 8. Revisar e Criar 🔍
+## 7. Revisar e Criar
 
 Agora que todas as configurações foram feitas, clique em **"Revisar e Criar"**. Revise cuidadosamente todos os detalhes, como nome do banco de dados, servidor, plano de serviço e configurações de segurança. Se tudo estiver correto, clique em **"Criar"** e aguarde enquanto o Azure provisiona sua instância de banco de dados. Esse processo pode levar alguns minutos.
